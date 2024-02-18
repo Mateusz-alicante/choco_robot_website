@@ -1,7 +1,7 @@
 .outerContainer {
   background-color: #FF9BA8;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   position: absolute;
   top: 0;
   left: 0;
@@ -33,4 +33,35 @@
     font-size: 3em;
   }
   
+}
+
+.colorButtons button {
+  margin: 1em;
+  padding: 1em;
+  border-radius: 30px;
+  font-size: 1.5em;
+  background-color: #F5F5F5;
+  color: #F44A79;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid;
+}
+
+.colorButtons button:hover {
+  background-color: rgb(255, 126, 163);
+  color: #F5F5F5;
+  transform: scale(1.2);
+}
+
+.redButton:hover {
+  border-color: #ff0404;
+}
+
+.greenButton:hover {
+  border-color: #00ff00;
+}
+
+.blueButton:hover {
+  border-color: #0000ff;
 }

@@ -5,7 +5,9 @@ import Image from "next/image";
 import styles from "./Image.module.css";
 
 export default function ShowImage() {
-  const [imageSource, setImageSource] = useState("");
+  const [imageSource, setImageSource] = useState(
+    "https://www.holidaygenie.com/blog/wp-content/uploads/2017/12/top-romantic-destinations-to-celebrate-valentines-day-850x459.png"
+  );
 
   const getImage = async () => {
     console.log("Getting image");

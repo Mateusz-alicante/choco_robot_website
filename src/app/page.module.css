@@ -21,4 +21,16 @@
 .title {
   font-size: 5em;
   color: #F5F5F5;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .innerContainer {
+    width: 95%;
+  }
+
+  .title {
+    font-size: 3em;
+  }
+  
 }
